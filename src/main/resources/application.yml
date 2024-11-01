@@ -1,5 +1,16 @@
 spring:
   application:
     name: springboot-docker
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://127.0.0.1:5432/springboot-docker
+    username: postgres
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: create		
+  sql:
+    init:
+      platform: postgres
 server:
   port: 8080
