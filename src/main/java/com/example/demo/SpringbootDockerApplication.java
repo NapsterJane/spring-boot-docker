@@ -11,7 +11,7 @@ public class SpringbootDockerApplication {
 	
 	@GetMapping("/hello")
     public String homePage() {
-        return "welcome";
+        return "welcome Docker";
     }
 
 	public static void main(String[] args) {
