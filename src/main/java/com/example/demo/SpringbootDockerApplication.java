@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringbootDockerApplication {
 	
 	@GetMapping("/hello")
-    public String home() {
+    public String homePage() {
         return "welcome";
     }
 
